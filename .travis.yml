@@ -1,7 +1,6 @@
 before_install:
   - wget https://github.com/spf13/hugo/releases/download/v0.52/hugo_extended_0.52_Linux-64bit.deb
-  - sudo dpkg -i hugo_extended_0.52_Linux-64bit.deb || true
-  - sudo apt-get install -f
+  - sudo dpkg -i hugo_extended_0.52_Linux-64bit.deb || sudo apt-get -fy install
 script:
   - hugo
 deploy:
