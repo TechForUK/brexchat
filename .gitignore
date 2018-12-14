@@ -1,0 +1,7 @@
+# Generated files
+dev/
+public/
+
+# Hugo directories
+resources/
+themes/
