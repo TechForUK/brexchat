@@ -1,6 +1,6 @@
 ---
 title: "The NHS"
-type: "reflect"
+type: "agree"
 ---
 
-"So you are worried that the NHS is falling apart?"
+"I agree, I'm really worried that in the future the NHS won't be there for me or my family."

@@ -1,5 +1,6 @@
 ---
 title: "Listen"
+type: listen
 ---
 
 ## This is not about you being right and them being wrong.

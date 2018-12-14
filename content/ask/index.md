@@ -1,5 +1,6 @@
 ---
 title: "Ask"
+type: ask
 ---
 
 ## Ask open questions.

@@ -11,4 +11,6 @@
     <blockquote>
         {{ .Content }}
     </blockquote>
+
+    {{ if .PrevInSection }} <a href="{{.PrevInSection.Permalink}}">Next</a> {{ end }}
 {{ end }}

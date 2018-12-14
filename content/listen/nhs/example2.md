@@ -1,6 +1,10 @@
 ---
 title: "The NHS"
-type: "agree"
+type: "share"
 ---
 
-"I agree, I'm really worried that in the future the NHS won't be there for me or my family."
+**Less money for the NHS**
+
+"We are not going to get the extra £350 million a week for the NHS that we were promised. Even Nigel Farage said he could not guarantee we would get that money.
+
+How is the NHS going to be there for me and my family with less money?"

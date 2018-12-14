@@ -9,4 +9,8 @@
     <blockquote>
         {{ .Content }}
     </blockquote>
+
+    {{ range first 1 .Pages }}
+        <a href="{{.Permalink}}">Next</a>
+    {{ end }}
 {{ end }}

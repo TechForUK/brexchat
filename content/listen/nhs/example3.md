@@ -3,8 +3,10 @@ title: "The NHS"
 type: "share"
 ---
 
-**Less money for the NHS**
+**We need people from the EU to work for the NHS**
 
-"We are not going to get the extra £350 million a week for the NHS that we were promised. Even Nigel Farage said he could not guarantee we would get that money.
+"62,000 people from the EU currently work in the NHS.
 
-How is the NHS going to be there for me and my family with less money?"
+But the NHS is still short of 35,000 nurses and nearly 10,000 doctors.
+
+What would we do without the doctors and nurses from the EU?"

@@ -1,0 +1,8 @@
+{{ $common := .Site.GetPage "/common/index.md" }}
+{{ $subscribe := $common.Resources.GetMatch "subscribe.md" }}
+
+{{ with $subscribe }}
+<section class="subscribe">
+    {{ .Content }}
+</section>
+{{ end }}
