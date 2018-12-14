@@ -1,0 +1,15 @@
+before_install:
+  - sudo apt-get install -y hugo
+script:
+  - hugo
+deploy:
+  local_dir: public
+  repo: brew4europe/brexchat
+  target_branch: gh-pages
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  email: jt-git@nti.me.uk
+  name: "James Taylor"
+  on:
+    branch: master
