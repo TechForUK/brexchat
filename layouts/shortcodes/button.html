@@ -1,0 +1,8 @@
+{{ $pageref := .Get 0 }}
+{{ $label := .Get 1 }}
+
+{{ with .Site.GetPage $pageref }}
+<form action="{{ .Permalink }}">
+    <input type="submit" value="{{ $label }}" />
+</form>
+{{ end }}

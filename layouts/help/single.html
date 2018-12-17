@@ -1,0 +1,10 @@
+{{ define "header" }}
+    <h1>{{ .Site.Title }}</h1>
+    <p>Ask > Listen > Reflect > Agree > Discuss</p>
+{{ end }}
+
+{{ define "main" }}
+    <h2>{{ .Title }}</h2>
+
+    {{ .Content }}
+{{ end }}

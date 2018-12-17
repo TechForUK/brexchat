@@ -5,6 +5,7 @@ description: "A Remainer's guide to discussing Brexit this Christmas"
 
 ## How it works
 
-This is a simplified version of the radical conversation method created by Dr Karin Tamerius
+This is a simplified version of the Radical Conversation process which encourages positive conversations rather than arguments.
 
-Find out more
+{{< button "/help/_index.md" "Learn more" >}}
+

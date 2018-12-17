@@ -1,7 +1,0 @@
-{{ define "main" }}
-    {{ .Content }}
-
-    {{ with .Site.GetPage "/listen/_index.md" }}
-        <a href="{{.Permalink}}">Next</a>
-    {{ end }}
-{{ end }}

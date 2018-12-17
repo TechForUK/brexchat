@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
 
+    {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+
     {{ .Hugo.Generator }}
     {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
     {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
@@ -13,8 +16,11 @@
   </head>
 
   <body>
-    <h1>Brexchat</h1>
-    <p>{{ .Description }}</p>
+    <header>
+      {{ block "header" . }}
+        <h1>{{ .Site.Title }}</h1>
+      {{ end }}
+    </header>
     <main role="main">
       {{ block "main" . }}{{ end }}
     </main>
