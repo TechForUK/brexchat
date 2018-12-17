@@ -17,4 +17,4 @@ The process has 5 steps:
 
 Repeat
 
-{{< button "/help/ask/index.md" "Next" >}}
+{{< button "/help/ask.md" "Next" >}}

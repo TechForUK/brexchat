@@ -1,6 +1,7 @@
 ---
 title: Discuss
 type: help
+weight: 50
 ---
 
 ### Share your personal point of view.

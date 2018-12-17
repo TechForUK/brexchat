@@ -1,6 +1,7 @@
 ---
 title: Listen
 type: help
+weight: 20
 ---
 
 ### This is not about you being right and them being wrong.
@@ -8,5 +9,3 @@ type: help
 Try to understand their concerns and motivations. Ask more open questions.
 
 If they have many concerns, focus on the biggest first.
-
-{{< button "/help/reflect/index.md" "Next" >}}

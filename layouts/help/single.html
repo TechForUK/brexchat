@@ -7,4 +7,10 @@
     <h2>{{ .Title }}</h2>
 
     {{ .Content }}
+
+    {{ if .PrevInSection }}
+        <form action="{{ .PrevInSection.Permalink }}">
+            <input type="submit" value="Next" />
+        </form>
+    {{ end }}
 {{ end }}
