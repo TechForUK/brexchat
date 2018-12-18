@@ -1,10 +1,16 @@
+{{ define "header" }}
+    <h1>{{ .Site.Title }}</h1>
+
+    {{ with .Site.GetPage "/start/index.md" }}
+        <form action="{{ .Permalink }}">
+            <input type="submit" value="Get Started" />
+        </form>
+    {{ end }}
+{{ end }}
+
 {{ define "main" }}
     {{ .Content }}
 
     {{ partial "subscribe.html" . }}
     {{ partial "social.html" . }}
-
-    {{ with .Site.GetPage "/ask/index.md" }}
-        <a href="{{.Permalink}}">Get Started</a>
-    {{ end }}
 {{ end }}
