@@ -3,7 +3,12 @@
 
     {{ .Content }}
 
-    {{ range .Pages }}
-        <a href="{{.Permalink}}">{{.Title}}</a>
+    {{ range .Sections }}
+        {{ $sectionName := .Title }}
+        {{ range first 1 .Pages }}
+            <form action="{{ .Permalink }}">
+                <input type="submit" value="{{ $sectionName }}" />
+            </form>
+        {{ end }}
     {{ end }}
 {{ end }}

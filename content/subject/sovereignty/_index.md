@@ -1,0 +1,4 @@
+---
+title: "Sovereignty"
+type: fact
+---

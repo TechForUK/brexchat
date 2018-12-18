@@ -1,0 +1,13 @@
+{{ define "main" }}
+    <p><b>Facts about...</b></p>
+
+    <h2>{{ .Title }}</h2>
+
+    {{ .Content }}
+
+    {{ range .Pages }}
+        <form action="{{ .Permalink }}">
+            <input type="submit" value="{{ .Title }}" />
+        </form>
+    {{ end }}
+{{ end }}
