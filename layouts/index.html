@@ -9,8 +9,10 @@
 {{ end }}
 
 {{ define "main" }}
-    {{ .Content }}
-
+    <section class="primary-content">
+        {{ .Content }}
+    </section>
     {{ partial "subscribe.html" . }}
     {{ partial "social.html" . }}
+    {{ partial "tfuk.html" . }}
 {{ end }}

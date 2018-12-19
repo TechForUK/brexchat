@@ -6,8 +6,13 @@ body {
     margin: 0 auto 0 auto;
 }
 
+{{ $header_image := .Site.Params.header_image }}
+{{ $header_image := (trim $header_image "/") | absURL }}
 header {
     background-color: #4a689b;
+    background-image: url('{{ $header_image }}');
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     padding: 0.5em 0 4.5em 0;
     text-align: center;
@@ -18,5 +23,29 @@ header {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+}
+
+.tfuk {
+    color: white;
+    background-color: #323232;
+
+    img {
+        width: 80%;
+    }
+}
+
+.social {
+    color: white;
+    background-color: #4a689b;
+}
+
+.primary-content, .tfuk, .social, .subscribe {
+    text-align: center;
+    padding: 0.5em;
+}
+
+.page-content {
     padding: 0.5em;
 }

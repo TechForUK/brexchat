@@ -3,10 +3,8 @@ title: "Are you ready?"
 type: page
 ---
 
-These 5 steps won't necessarily happen in the order here... you might have to think on your feet but remember - it's not worth falling out over.
+**Brexchat** hopes to encourage conversations rather than arguments between friends and family.
 
-Some people won't ever change their minds, so don't try. Concentrate on those who might...
-
-**Have a happy Christmas!**
+Please don't ruin your family Christmas.
 
 {{< button "/subject/_index.md" "I'll give it a go" >}}

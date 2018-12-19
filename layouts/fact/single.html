@@ -1,16 +1,42 @@
 
 {{ define "main" }}
-    <h2>{{ .CurrentSection.Title }}</h2>
+    <div class="page-content">
+        <h2>{{ .CurrentSection.Title }}</h2>
 
-    {{ with .Site.GetPage "/subject/_index.md" }}
-        <p><a href="{{ .Permalink }}">Change subject</a></p>
-    {{ end }}
+        {{ with .Site.GetPage "/subject/_index.md" }}
+            <p><a href="{{ .Permalink }}">Change subject</a></p>
+        {{ end }}
 
-    <h3>{{ .Title }}</h3>
+        <h3>{{ .Title }}</h3>
 
-    {{ with .CurrentSection }}
-        <p><a href="{{ .Permalink }}">See all facts</a></p>
-    {{ end }}
+        {{ with .CurrentSection }}
+            <p><a href="{{ .Permalink }}">See all facts</a></p>
+        {{ end }}
 
-    {{ .Content }}
+        {{ .Content }}
+    </div>
+
+    <nav>
+        <p>Has this convinced them that it is better to remain?</p>
+
+        {{ with .Site.GetPage "/win/index.md" }}
+            <form action="{{ .Permalink }}">
+                <input type="submit" value="They changed to Remainers!" />
+            </form>
+        {{ end }}
+
+        {{ if not ( .PrevInSection ) }}
+            {{ with .Site.GetPage "/fail/index.md" }}
+                <form action="{{ .Permalink }}">
+                    <input type="submit" value="I need another fact" />
+                </form>
+            {{ end }}
+        {{ else }}
+            {{ with .PrevInSection }}
+                <form action="{{ .Permalink }}">
+                    <input type="submit" value="I need another fact" />
+                </form>
+            {{ end }}
+        {{ end }}
+    </nav>
 {{ end }}
