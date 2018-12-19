@@ -6,7 +6,7 @@ These are some rough guidelines to follow if you want to help out with Brexchat!
 
 If you're on the Tech for UK Slack team, say hi in the `brexchat` channel.
 
-Alternatively, you can still help by reporting an [issue](https://github.com/brew4europe/brexchat/issues)
+Alternatively, you can still help by reporting an [issue](https://github.com/TechForUK/brexchat/issues)
 
 ## Our Development Process
 

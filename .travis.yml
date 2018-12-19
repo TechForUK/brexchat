@@ -6,7 +6,7 @@ script:
   - hugo
 deploy:
   local_dir: public
-  repo: brew4europe/brexchat
+  repo: TechForUK/brexchat
   target_branch: gh-pages
   provider: pages
   skip_cleanup: true
