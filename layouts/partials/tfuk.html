@@ -1,0 +1,8 @@
+{{ $common := .Site.GetPage "/common/index.md" }}
+{{ $tfuk := $common.Resources.GetMatch "tfuk.md" }}
+
+{{ with $tfuk }}
+<section class="tfuk">
+    {{ .Content }}
+</section>
+{{ end }}

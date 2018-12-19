@@ -3,7 +3,7 @@ title: Welcome,
 type: help
 ---
 
-*Brexchat* is a simplified version of the Radical Conversation process created by psychiatrist and political scientist Dr Karin Tamerius.
+**Brexchat** is a simplified version of the Radical Conversation process created by psychiatrist and political scientist Dr Karin Tamerius.
 
 We hope it will help you to have positive conversations rather than arguements.
 

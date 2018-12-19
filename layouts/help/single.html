@@ -4,13 +4,17 @@
 {{ end }}
 
 {{ define "main" }}
-    <h2>{{ .Title }}</h2>
+    <div class="page-content">
+        <h2>{{ .Title }}</h2>
 
-    {{ .Content }}
+        {{ .Content }}
+    </div>
 
-    {{ if .PrevInSection }}
-        <form action="{{ .PrevInSection.Permalink }}">
-            <input type="submit" value="Next" />
-        </form>
-    {{ end }}
+    <nav>
+        {{ if .PrevInSection }}
+            <form action="{{ .PrevInSection.Permalink }}">
+                <input type="submit" value="Next" />
+            </form>
+        {{ end }}
+    </nav>
 {{ end }}

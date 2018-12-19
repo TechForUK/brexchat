@@ -1,14 +1,18 @@
 {{ define "main" }}
-    <h2>{{ .Title }}</h2>
+    <div class="page-content">
+        <h2>{{ .Title }}</h2>
 
-    {{ .Content }}
+        {{ .Content }}
+    </div>
 
-    {{ range .Sections }}
-        {{ $sectionName := .Title }}
-        {{ range first 1 .Pages }}
-            <form action="{{ .Permalink }}">
-                <input type="submit" value="{{ $sectionName }}" />
-            </form>
+    <nav>
+        {{ range .Sections }}
+            {{ $sectionName := .Title }}
+            {{ range first 1 .Pages }}
+                <form action="{{ .Permalink }}">
+                    <input type="submit" value="{{ $sectionName }}" />
+                </form>
+            {{ end }}
         {{ end }}
-    {{ end }}
+    </nav>
 {{ end }}
