@@ -1,6 +1,6 @@
 
 {{ define "main" }}
-    <div class="page-content">
+    <div class="page-content container">
         <h2>{{ .CurrentSection.Title }}</h2>
 
         {{ with .Site.GetPage "/subject/_index.md" }}
@@ -16,7 +16,7 @@
         {{ .Content }}
     </div>
 
-    <nav>
+    <nav class="container">
         <p>Has this convinced them that it is better to remain?</p>
 
         {{ with .Site.GetPage "/win/index.md" }}
