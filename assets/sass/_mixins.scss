@@ -1,4 +1,4 @@
-@mixin button($solid: true, $inline: true) {
+@mixin button($inline: true) {
   display: if($inline, inline-block, block);
   min-width: 142px;
   margin: 0 auto 14px;
@@ -11,8 +11,8 @@
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  color: if($solid, $button-colour, $button-bg-colour);
-  background-color: if($solid, $button-bg-colour, $solid);
+  color: $button-colour;
+  background-color: $button-bg-colour;
   border-radius: 7px;
   border: none;
   box-shadow: 0 7px 0 0 $button-shadow;
