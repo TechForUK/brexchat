@@ -1,7 +1,7 @@
 @mixin button($inline: true) {
   display: if($inline, inline-block, block);
   min-width: 142px;
-  margin: 0 auto 14px;
+  margin: 0 auto 0;
   padding: 9px;
   text-align: center;
   font-family: $font-stack;
