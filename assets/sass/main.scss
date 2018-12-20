@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
 @import "variables";
 @import "mixins";
 
@@ -15,7 +15,7 @@ body {
     font-size: 1.6rem;
     margin: 0;
     padding: 0;
-    colour: $body-colour;
+    color: $body-colour;
     line-height: 1.5;
 }
 
@@ -25,8 +25,14 @@ img {
 
 .container {
     max-width: 400px;
-    padding: 16px;
+    padding: 0.5em;
     margin: 0 auto;
+}
+
+em {
+    font-style: normal;
+    color: $highlight-colour;
+    font-weight: bolder;
 }
 
 
@@ -72,6 +78,7 @@ header {
         line-height: normal;
         letter-spacing: -0.5px;
         margin: 0 auto;
+        flex-grow: 2;
     }
 
     form {
@@ -120,3 +127,29 @@ form + form {
   margin-top: 14px;
 }
 
+/** Content */
+.primary-content {
+    h2 {
+      font-size: 2.4rem;
+      font-weight: normal;
+      letter-spacing: -.5px;
+      margin: 0 auto 17px;
+    }
+
+    p {
+      margin: 0 auto 17px;
+    }
+}
+
+/** Home content */
+.primary-content-home {
+    padding: 35px 16px 48px;
+
+    p {
+        font-size: 2rem;
+        font-weight: 300;
+        letter-spacing: -.4px;
+        padding: 0 30px;
+        margin-bottom: 25px;
+    }
+}
