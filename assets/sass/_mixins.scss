@@ -1,7 +1,7 @@
 @mixin button($inline: true) {
   display: if($inline, inline-block, block);
   min-width: 142px;
-  margin: 0 auto 0;
+  margin: 0 auto 7px;
   padding: 9px;
   text-align: center;
   font-family: $font-stack;
@@ -23,6 +23,6 @@
   &:focus {
     box-shadow: 0 0 1px 0 $button-shadow inset;
     margin-top: 7px;
-    margin-bottom: 7px;
+    margin-bottom: 0;
   }
 }
