@@ -69,7 +69,16 @@ main {
     text-align: center;
 }
 
-input[type="submit"] {
+input[type="submit"],
+.button {
   @include button();
+}
+
+input[type="submit"].button-inverse,
+.button.button-inverse {
+  color: $button-bg-colour;
+  background-color: $button-colour;
+  border: 2px solid $button-bg-colour;
+  padding: 7px;
 }
 
