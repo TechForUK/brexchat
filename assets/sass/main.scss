@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import "variables";
+@import "base";
+@import "mixins/index";
+@import "layout/index";
+@import "components/index";
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    max-width: 400px;
-    margin: 0 auto 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
 {{ $header_image := .Site.Params.header_image }}
@@ -48,4 +53,10 @@ main {
 
 .page-content {
     padding: 0.5em;
+}
+
+.container {
+    max-width: 400px;
+    padding: 16px;
+    margin: 0 auto;
 }

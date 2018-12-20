@@ -12,7 +12,9 @@
     <section class="primary-content">
         {{ .Content }}
     </section>
-    {{ partial "subscribe.html" . }}
+{{ end }}
+
+{{ define "footer" }}
     {{ partial "social.html" . }}
     {{ partial "tfuk.html" . }}
 {{ end }}
