@@ -17,12 +17,19 @@
 
   <body>
     <header>
-      {{ block "header" . }}
-        <h1>{{ .Site.Title }}</h1>
-      {{ end }}
+      <div class="container">
+        {{ block "header" . }}
+          <h1>{{ .Site.Title }}</h1>
+        {{ end }}
+      </div>
     </header>
     <main role="main">
-      {{ block "main" . }}{{ end }}
+      <div class="container">
+        {{ block "main" . }}{{ end }}
+      </div>
     </main>
+    <footer>
+      {{ block "footer" . }}{{ end }}
+    </footer>
   </body>
 </html>
