@@ -16,13 +16,13 @@
   </head>
 
   <body>
-    <header>
-      <div class="container">
-        {{ block "header" . }}
+    {{ block "header" . }}
+      <header>
+        <div class="container">
           <h1>{{ .Site.Title }}</h1>
-        {{ end }}
-      </div>
-    </header>
+        </div>
+      </header>
+    {{ end }}
     <main role="main">
       {{ block "main" . }}{{ end }}
     </main>
