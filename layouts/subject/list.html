@@ -1,11 +1,11 @@
 {{ define "main" }}
-    <div class="page-content">
+    <div class="page-content container">
         <h2>{{ .Title }}</h2>
 
         {{ .Content }}
     </div>
 
-    <nav>
+    <nav class="container">
         {{ range .Sections }}
             {{ $sectionName := .Title }}
             {{ range first 1 .Pages }}
