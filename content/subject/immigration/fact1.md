@@ -1,5 +1,5 @@
 ---
-title: “We control immigration from outside EU”
+title: We control immigration from outside EU
 type: fact
 ---
 
