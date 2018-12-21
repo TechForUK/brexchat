@@ -13,7 +13,8 @@
 
     <div class="section-header">
         <div class="container">
-            <h4>Fact x of y</h4>
+            {{ $totalFacts := len ( where .CurrentSection.Pages "Type" "fact" ) }}
+            <h4>Fact 1 of {{ $totalFacts }}</h4>
 
             {{ with .CurrentSection }}
                 <p><a href="{{ .Permalink }}">See all facts</a></p>

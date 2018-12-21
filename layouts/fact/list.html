@@ -1,6 +1,6 @@
 {{ define "main" }}
     <div class="page-content container">
-        <p><b>Facts about...</b></p>
+        <p>The facts:</p>
 
         <h2>{{ .Title }}</h2>
 
@@ -10,7 +10,7 @@
     <nav class="container button-list">
         {{ range .Pages }}
             <form action="{{ .Permalink }}">
-                <input type="submit" value="{{ .Title }}" class="button-block" />
+                <input type="submit" value="{{ .Title }}" class="button-block button-inverse" />
             </form>
         {{ end }}
     </nav>
