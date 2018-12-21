@@ -143,15 +143,15 @@ main {
 /** Buttons */
 input[type="submit"],
 .button {
-  @include button();
+    @include button();
 }
 
 input[type="submit"].button-inverse,
 .button.button-inverse {
-  color: $button-bg-colour;
-  background-color: $button-colour;
-  border: 2px solid $button-bg-colour;
-  padding: 7px;
+    color: $button-bg-colour;
+    background-color: $button-colour;
+    border: 2px solid $button-bg-colour;
+    padding: 7px;
 }
 
 input[type="submit"].button-block,
@@ -162,7 +162,7 @@ input[type="submit"].button-block,
 
 /** To cope with shadow on buttons */
 form {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 /** For stacked buttons */
