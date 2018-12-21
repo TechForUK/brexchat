@@ -1,6 +1,10 @@
 {{ define "header" }}
-    <h1>{{ .Site.Title }}</h1>
-    <p>Ask > Listen > Reflect > Agree > Discuss</p>
+  <header class="header-with-nav">
+      <div class="container">
+          <h1>{{ .Site.Title }}</h1>
+          <p class="nav">Ask > Listen > Reflect > Agree > Discuss</p>
+      </div>
+  </header>
 {{ end }}
 
 {{ define "main" }}
