@@ -1,12 +1,8 @@
 ---
-title: "Are you ready?"
-type: page
+title: "Play nicely!"
+type: start
 ---
 
-## Are you ready?
+**Don’t ruin Christmas…**
 
-**Brexchat** hopes to encourage conversations rather than arguments between friends and family.
-
-Please don't ruin your family Christmas.
-
-{{< button "/subject/_index.md" "I'll give it a go" "button-block" >}}
+Your point of view will be much better received if you find some common ground on a subject first.
