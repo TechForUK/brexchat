@@ -5,12 +5,12 @@
         {{ .Content }}
     </div>
 
-    <nav class="container">
+    <nav class="container button-list">
         {{ range .Sections }}
             {{ $sectionName := .Title }}
             {{ range first 1 .Pages }}
                 <form action="{{ .Permalink }}">
-                    <input type="submit" value="{{ $sectionName }}" />
+                    <input type="submit" value="{{ $sectionName }}" class="button-block" />
                 </form>
             {{ end }}
         {{ end }}
