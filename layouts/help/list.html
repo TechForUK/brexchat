@@ -1,0 +1,15 @@
+{{ define "main" }}
+    <div class="page-content container">
+        <h2>{{ .Title }}</h2>
+
+        {{ .Content }}
+    </div>
+
+    <nav class="container">
+        {{ with .Site.GetPage "/help/ask.md" }}
+            <form action="{{ .Permalink }}">
+                <input type="submit" value="Next" class="button-block" />
+            </form>
+        {{ end }}
+    </nav>
+{{ end }}

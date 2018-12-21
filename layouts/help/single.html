@@ -15,10 +15,20 @@
     </div>
 
     <nav class="container">
-        {{ if .PrevInSection }}
-            <form action="{{ .PrevInSection.Permalink }}">
-                <input type="submit" value="Next" />
-            </form>
+        {{ if not ( .PrevInSection ) }}
+            <p class="label">Get informed on Brexit:</p>
+
+            {{ with .Site.GetPage "/subject/_index.md" }}
+                <form action="{{ .Permalink }}">
+                    <input type="submit" value="Choose subject" class="button-block" />
+                </form>
+            {{ end }}
+        {{ else }}
+            {{ with .PrevInSection }}
+                <form action="{{ .Permalink }}">
+                    <input type="submit" value="Next" class="button-block" />
+                </form>
+            {{ end }}
         {{ end }}
     </nav>
 {{ end }}
