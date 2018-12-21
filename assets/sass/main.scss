@@ -26,6 +26,12 @@ main {
     flex-grow: 2;
 }
 
+nav {
+    p {
+        text-align: center;
+    }
+}
+
 img {
   max-width: 100%;
 }
@@ -54,9 +60,14 @@ strong {
 a {
     color: $link-colour;
     text-decoration: none;
+    font-weight: 600;
 
     &:hover, &:focus {
         text-decoration: underline;
+    }
+
+    &:after {
+        content: ' >';
     }
 }
 
@@ -64,6 +75,7 @@ a {
     font-size: 1.4rem;
     font-weight: 400;
     letter-spacing: -.3px;
+    text-align: left;
 }
 
 

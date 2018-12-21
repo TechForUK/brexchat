@@ -1,28 +1,34 @@
 {{ define "header" }}
-  <header class="home-header">
+<header class="home-header">
     <div class="container">
-      <h1 class="site-title">{{ .Site.Title }}</h1>
+        <h1 class="site-title">{{ .Site.Title }}</h1>
 
-      <p class="lead">
-        A Remainer's guide to discussing Brexit this Christmas
-      </p>
+        <p class="lead">
+            A Remainer's guide to discussing Brexit this Christmas
+        </p>
 
-      {{ with .Site.GetPage "/start/index.md" }}
-          <form action="{{ .Permalink }}">
-              <input type="submit" value="Get Started" />
-          </form>
-      {{ end }}
+        {{ with .Site.GetPage "/help/_index.md" }}
+            <form action="{{ .Permalink }}">
+                <input type="submit" value="Get Started" />
+            </form>
+        {{ end }}
     </div>
-  </header>
+</header>
 {{ end }}
 
 {{ define "main" }}
-    <section class="primary-content primary-content-home container">
-        {{ .Content }}
-    </section>
+<section class="primary-content primary-content-home container">
+    {{ .Content }}
+
+    {{ with .Site.GetPage "/start/index.md" }}
+        <form action="{{ .Permalink }}">
+            <input type="submit" value="Show me the facts" class="button-inverse" />
+        </form>
+    {{ end }}
+</section>
 {{ end }}
 
 {{ define "footer" }}
-    {{ partial "social.html" . }}
-    {{ partial "tfuk.html" . }}
+{{ partial "social.html" . }}
+{{ partial "tfuk.html" . }}
 {{ end }}
