@@ -20,7 +20,9 @@
     {{ block "header" . }}
       <header>
         <div class="container">
-          <h1>{{ .Site.Title }}</h1>
+          {{ with .Site.GetPage "/_index.md" }}
+            <h1><a href="{{ .Permalink }}">{{ .Site.Title }}</a></h1>
+          {{ end }}
         </div>
       </header>
     {{ end }}

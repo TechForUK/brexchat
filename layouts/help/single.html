@@ -1,10 +1,13 @@
 {{ define "header" }}
-  <header class="header-with-nav">
-      <div class="container">
-          <h1>{{ .Site.Title }}</h1>
-          <p class="nav">Ask > Listen > Reflect > Agree > Discuss</p>
-      </div>
-  </header>
+    <header class="header-with-nav">
+        <div class="container">
+            {{ with .Site.GetPage "/_index.md" }}
+                <h1><a href="{{ .Permalink }}">{{ .Site.Title }}</a></h1>
+            {{ end }}
+
+            <p class="nav">Ask > Listen > Reflect > Agree > Discuss</p>
+        </div>
+    </header>
 {{ end }}
 
 {{ define "main" }}

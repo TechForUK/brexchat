@@ -27,6 +27,14 @@ main {
 }
 
 nav {
+    a {
+        font-weight: 600;
+    
+        &:after {
+            content: ' >';
+        }
+    }
+
     p {
         text-align: center;
     }
@@ -60,14 +68,9 @@ strong {
 a {
     color: $link-colour;
     text-decoration: none;
-    font-weight: 600;
 
     &:hover, &:focus {
         text-decoration: underline;
-    }
-
-    &:after {
-        content: ' >';
     }
 }
 
@@ -111,6 +114,12 @@ header {
         margin: 16px auto;
         border: 0;
         width: auto;
+
+        a {
+            color: white;
+            font-size: 2rem;
+            font-weight: 600;
+        }
     }
 
     .lead {
