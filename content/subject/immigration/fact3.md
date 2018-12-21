@@ -1,6 +1,6 @@
 ---
-title: “We could not live in EU anymore”
+title: UK Nationals may have to leave the EU
 type: fact
 ---
 
-“If we leave the EU it very likely that people from the UK will lose the right to live, work and retire in the EU. 1.2 million people from UK currently live in the EU. What will happen to them?“
+If the UK leaves the EU people from the UK will lose the automatic right to live, work and retire there. 1.2 million people from UK currently live in the EU. What will happen to them?
