@@ -1,13 +1,11 @@
 ---
-title: Are you ready?
+title: Be patient & informed
 type: help
 weight: 70
 ---
 
-These 5 steps won't necessarily happen in the order here... you might have to think on your feet but remember - it's not worth falling out over.
+Some people will never change their minds, so don’t try. But plenty of people will. Focus on them.
 
-Some people won't ever change their minds, so don't try. Concentrate on those who might...
+These 5 steps won’t necessarily happen in the order here and it may take many gentle conversations. And you will often have to think on your feet but remember - it’s not worth falling out over. 
 
-**Have a happy Christmas!**
-
-{{< button "/subject/_index.md" "I'll give it a go" >}}
+Good luck & have a Happy Christmas.
