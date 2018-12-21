@@ -12,7 +12,7 @@ html {
 
 body {
     font-family: $font-stack;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin: 0;
     padding: 0;
     color: $body-colour;
@@ -24,15 +24,39 @@ img {
 }
 
 .container {
+    width: 100%;
     max-width: 400px;
-    padding: 0.5em;
+    padding: 16px;
     margin: 0 auto;
+}
+
+p {
+    font-weight: 300;
 }
 
 em {
     font-style: normal;
     color: $highlight-colour;
     font-weight: bolder;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+a {
+    color: $link-colour;
+    text-decoration: none;
+
+    &:hover, &:focus {
+        text-decoration: underline;
+    }
+}
+
+.label {
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: -.3px;
 }
 
 
@@ -122,34 +146,124 @@ input[type="submit"].button-inverse,
   padding: 7px;
 }
 
-/** For stacked buttons */
-form + form {
-  margin-top: 14px;
+input[type="submit"].button-block,
+.button.button-block {
+    display: block;
+    width: 100%;
 }
 
-/** Content */
-.primary-content {
-    h2 {
-      font-size: 2.4rem;
-      font-weight: normal;
-      letter-spacing: -.5px;
-      margin: 0 auto 17px;
-    }
+/** To cope with shadow on buttons */
+form {
+  overflow: hidden;
+}
+
+/** For stacked buttons */
+
+.button-content {
 
     p {
-      margin: 0 auto 17px;
+        margin: 0 0 8px;
+    }
+}
+
+form + form {
+    margin-top: 16px;
+
+    .button-list & {
+        margin-top: 6px;
     }
 }
 
 /** Home content */
-.primary-content-home {
+.primary-content {
     padding: 35px 16px 48px;
+    text-align: center;
+
+    h2 {
+        font-size: 2.4rem;
+        font-weight: normal;
+        letter-spacing: -.5px;
+    }
 
     p {
         font-size: 2rem;
         font-weight: 300;
         letter-spacing: -.4px;
         padding: 0 30px;
-        margin-bottom: 25px;
+        margin: 0 auto 25px;
+    }
+}
+
+/** Content */
+.page-content {
+
+    text-align: left;
+
+    h2 {
+      font-size: 3.6rem;
+      font-weight: normal;
+      letter-spacing: -.4px;
+      margin: 0 auto 17px;
+    }
+
+    p {
+      margin: 0 auto 17px;
+    }
+}
+
+/** Fact Sections */
+.section-header {
+    background-color: $section-header-colour;
+    box-shadow: 0 2px 4px 0 rgba(207, 207, 207, 0.5);
+    line-height: 1;
+
+    &:first-child {
+        z-index: 10;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+
+        h2, h3, h4 {
+            flex-grow: 2;
+            margin: 13px 0;
+        }
+
+        h2 {
+            font-size: 3.6rem;
+            font-weight: 400;
+            letter-spacing: -.4px;
+        }
+
+        h3, h4 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            letter-spacing: -.4px;
+        }
+
+        a {
+            font-size: 1.4rem;
+            font-weight: 600;
+
+            &:after {
+                content: ' >';
+            }
+        }
+    }
+}
+
+.fact {
+
+    h3 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 0 0 8px;
+    }
+
+    p {
+        font-size: 2rem;
+        font-weight: 400;
+        margin: 0 0 1.5em;
     }
 }

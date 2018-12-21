@@ -1,40 +1,50 @@
 
 {{ define "main" }}
-    <div class="page-content container">
-        <h2>{{ .CurrentSection.Title }}</h2>
 
-        {{ with .Site.GetPage "/subject/_index.md" }}
-            <p><a href="{{ .Permalink }}">Change subject</a></p>
-        {{ end }}
+    <div class="section-header">
+        <div class="container">
+            <h2>{{ .CurrentSection.Title }}</h2>
 
+            {{ with .Site.GetPage "/subject/_index.md" }}
+                <p><a href="{{ .Permalink }}">Change subject</a></p>
+            {{ end }}
+        </div>
+    </div>
+
+    <div class="section-header">
+        <div class="container">
+            <h4>Fact x of y</h4>
+
+            {{ with .CurrentSection }}
+                <p><a href="{{ .Permalink }}">See all facts</a></p>
+            {{ end }}
+        </div>
+    </div>
+
+    <div class="page-content fact container">
         <h3>{{ .Title }}</h3>
-
-        {{ with .CurrentSection }}
-            <p><a href="{{ .Permalink }}">See all facts</a></p>
-        {{ end }}
-
         {{ .Content }}
     </div>
 
-    <nav class="container">
-        <p>Has this convinced them that it is better to remain?</p>
+    <nav class="container button-content">
+        <p class="label">Has this convinced them that it is better to remain?</p>
 
         {{ with .Site.GetPage "/win/index.md" }}
             <form action="{{ .Permalink }}">
-                <input type="submit" value="They changed to Remainers!" />
+                <input type="submit" value="They changed to Remainers!" class="button-block" />
             </form>
         {{ end }}
 
         {{ if not ( .PrevInSection ) }}
             {{ with .Site.GetPage "/fail/index.md" }}
                 <form action="{{ .Permalink }}">
-                    <input type="submit" value="I need another fact" />
+                    <input type="submit" value="I need another fact" class="button-block button-inverse" />
                 </form>
             {{ end }}
         {{ else }}
             {{ with .PrevInSection }}
                 <form action="{{ .Permalink }}">
-                    <input type="submit" value="I need another fact" />
+                    <input type="submit" value="I need another fact" class="button-block button-inverse" />
                 </form>
             {{ end }}
         {{ end }}
