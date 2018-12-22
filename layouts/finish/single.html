@@ -1,0 +1,20 @@
+{{ define "main" }}
+    <div class="page-content container">
+        <h2>{{ .Title }}</h2>
+
+        {{ .Content }}
+    </div>
+
+    <nav class="container button-list">
+        {{ with .Site.GetPage "/subject/_index.md" }}
+            {{ range .Sections }}
+                {{ $sectionName := .Title }}
+                {{ range first 1 .Pages }}
+                    <form action="{{ .Permalink }}">
+                        <input type="submit" value="{{ $sectionName }}" class="button-block" />
+                    </form>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </nav>
+{{ end }}

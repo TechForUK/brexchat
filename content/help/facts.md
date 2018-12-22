@@ -4,7 +4,7 @@ type: help
 weight: 60
 ---
 
-**Brexchat** has key facts at your fingertips, if you need it.
+{{< talkaboutbrex >}} has key facts at your fingertips, if you need it.
 
 Simply choose a subject and we will show you the facts.
 
