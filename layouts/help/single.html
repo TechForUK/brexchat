@@ -2,7 +2,7 @@
     <header class="header-with-nav">
         <div class="container">
             {{ with .Site.GetPage "/_index.md" }}
-                <h1><a href="{{ .Permalink }}">{{ .Site.Title }}</a></h1>
+                <h1><a href="{{ .Permalink }}">{{ partial "talkaboutbrex.html" . }}</a></h1>
             {{ end }}
 
             <p class="nav">Ask > Listen > Reflect > Agree > Discuss</p>

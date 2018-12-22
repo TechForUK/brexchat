@@ -14,7 +14,7 @@
     <div class="section-header">
         <div class="container">
             {{ $totalFacts := len ( where .CurrentSection.Pages "Type" "fact" ) }}
-            <h4>Fact 1 of {{ $totalFacts }}</h4>
+            <h4>One of {{ $totalFacts }} facts</h4>
 
             {{ with .CurrentSection }}
                 <p><a href="{{ .Permalink }}">See all facts</a></p>
@@ -28,24 +28,16 @@
     </div>
 
     <nav class="container button-content">
-        <p class="label">Has this convinced them that it is better to remain?</p>
-
-        {{ with .Site.GetPage "/win/index.md" }}
-            <form action="{{ .Permalink }}">
-                <input type="submit" value="They changed to Remainers!" class="button-block" />
-            </form>
-        {{ end }}
-
         {{ if not ( .PrevInSection ) }}
-            {{ with .Site.GetPage "/fail/index.md" }}
+            {{ with .Site.GetPage "/finish/index.md" }}
                 <form action="{{ .Permalink }}">
-                    <input type="submit" value="I need another fact" class="button-block button-inverse" />
+                    <input type="submit" value="Next" class="button-block" />
                 </form>
             {{ end }}
         {{ else }}
             {{ with .PrevInSection }}
                 <form action="{{ .Permalink }}">
-                    <input type="submit" value="I need another fact" class="button-block button-inverse" />
+                    <input type="submit" value="Next" class="button-block" />
                 </form>
             {{ end }}
         {{ end }}

@@ -1,5 +1,5 @@
 baseURL = "https://techforuk.github.io/brexchat/"
 languageCode = "en-gb"
-title = "Brexchat"
+title = "TalkAboutBrex"
 [params]
 header_image = "/images/roberto-nickson-g-715417-unsplash@2x.jpg"
