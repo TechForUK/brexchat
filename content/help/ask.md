@@ -6,7 +6,9 @@ weight: 10
 
 ### Ask open questions.
 
-Ask a friend of family member you know who voted to leave about their **hopes** for wanting to leave the EU.
+If you ask someone to justify their views, they are likely to just become defensive and entrenched and the conversation becomes a battle with no winners.
+
+Ask gentle, open questions about their hopes and emotions.
 
 For example:
 
