@@ -155,6 +155,10 @@ main {
 .social {
     color: $inverse-body-colour;
     background-color: $footer-background-colour;
+
+    figure {
+        display: inline-block;
+    }
 }
 
 .primary-content, .tfuk, .social, .subscribe {
