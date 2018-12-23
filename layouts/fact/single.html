@@ -1,4 +1,29 @@
 
+{{ define "header" }}
+    <header class="header-with-nav">
+        <div class="container">
+            {{ with .Site.GetPage "/_index.md" }}
+                <h1><a href="{{ .Permalink }}">{{ partial "talkaboutbrex.html" . }}</a></h1>
+            {{ end }}
+          
+            {{ with .Site.GetPage "/help/_index.md" }}
+                <form action="{{ .Permalink }}">
+                    <input type="submit" value="Help" class="button button-info" />
+                </form>
+            {{ end }}
+        </div>
+        <div class="container breadcrumb-container">
+            <ul class="arrow-nav">
+                <li><span>Ask</span></li>
+                <li><span>Listen</span></li>
+                <li><span>Reflect</span></li>
+                <li><span>Agree</span></li>
+                <li><span>Discuss</span></li>
+            </ul>
+        </div>
+    </header>
+{{ end }}
+
 {{ define "main" }}
 
     <div class="section-header">
