@@ -4,8 +4,15 @@
             {{ with .Site.GetPage "/_index.md" }}
                 <h1><a href="{{ .Permalink }}">{{ partial "talkaboutbrex.html" . }}</a></h1>
             {{ end }}
-
-            <p class="nav">Ask > Listen > Reflect > Agree > Discuss</p>
+        </div>
+        <div class="container breadcrumb-container">
+            <ul class="arrow-nav">
+                <li><span>Ask</span></li>
+                <li><span>Listen</span></li>
+                <li><span>Reflect</span></li>
+                <li><span>Agree</span></li>
+                <li><span>Discuss</span></li>
+            </ul>
         </div>
     </header>
 {{ end }}
