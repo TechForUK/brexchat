@@ -9,4 +9,4 @@ We have some tips that encourage positive conversations.
 
 The process has 5 steps:
 
-{{< figure src="../images/process-model.svg" alt="Ask, Listem, Reflect, Agree, Share" >}}
+{{< figure src="../images/process-model.svg" alt="Ask, Listem, Reflect, Agree, Discuss" >}}
