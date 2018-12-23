@@ -215,7 +215,7 @@ main {
     text-align: center;
 }
 
-/** Buttons */
+/** Buttons - @todo add to mixin */
 input[type="submit"],
 .button {
     @include button();
@@ -235,6 +235,7 @@ input[type="submit"].button-block,
     width: 100%;
 }
 
+/* Header button */
 input[type="submit"].button-info,
 .button.button-info {
     box-shadow: none;

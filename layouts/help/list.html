@@ -1,3 +1,13 @@
+{{ define "header" }}
+    <header class="header">
+        <div class="container">
+            {{ with .Site.GetPage "/_index.md" }}
+                <h1><a href="{{ .Permalink }}">{{ partial "talkaboutbrex.html" . }}</a></h1>
+            {{ end }}
+        </div>
+    </header>
+{{ end }}
+
 {{ define "main" }}
     <div class="page-content container">
         <h2>{{ .Title }}</h2>
