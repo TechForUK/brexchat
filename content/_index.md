@@ -1,6 +1,8 @@
 ---
 title: "TalkAboutBrex"
 description: "A Remainer's guide to discussing Brexit this Christmas"
+images:
+  - "images/talk-about-brex.png"
 ---
 
 ## Just want the facts?
