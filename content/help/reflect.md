@@ -10,4 +10,4 @@ Repeat back what they have said to show that you have really heard what they hav
 
 For example:
 
-> ‘So, you are worried that the NHS is falling appart?’
+> ‘So, you are worried that the NHS is under too much pressure?’
