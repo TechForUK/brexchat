@@ -12,4 +12,4 @@ Ask gentle, open questions about their hopes and emotions.
 
 For example:
 
-> 'Can I ask what you hoped for when you voted to leave the EU'
+> 'Can I ask what you hoped for?'
