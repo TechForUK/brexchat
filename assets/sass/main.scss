@@ -107,8 +107,7 @@ header {
         font-size: 2rem;
         font-weight: 300;
         letter-spacing: 1.4px;
-        background: transparent url(images/logo.svg) no-repeat top right;
-        padding: 2px 25px 0 0;
+        padding: 0;
         margin: 0;
         border: 0;
         width: auto;
@@ -117,8 +116,11 @@ header {
             font-weight: 600;
         }
 
-        a {
+        a, .logo {
+            display: inline-block;
             color: #fff !important;
+            background: transparent url(images/logo.svg) no-repeat top right;
+            padding: 2px 25px 0 0;
           
             &:hover, &:active, &:focus {
                 text-decoration: none;
