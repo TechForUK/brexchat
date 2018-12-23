@@ -3,5 +3,7 @@ dev/
 public/
 
 # Hugo directories
-resources/
+# Note: Netlify does not currently support extended sass processing.
+# Workaround is to build locally and commit them for now. Ewwwwwwwwwwwww.
+# resources/
 themes/
