@@ -149,19 +149,19 @@ header {
     }
   
     /** Help Breadcrumb container */
-    .breadcrumb-container {
+    .breadcrumb-wrap {
         background-color: $breadcrumb-colour;
         padding-top: 6px;
         padding-bottom: 6px;
 
-        ul {
+        ul.arrow-nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
             width: 100%;
             list-style-type: none;
-            margin: 0;
-            padding: 0;
+            margin: 0 auto;
+            padding: 0 16px;
             font-size: 1.6rem;
             letter-spacing: -.3px;
 
