@@ -1,0 +1,8 @@
+baseURL = "https://objective-johnson-c5e270.netlify.com/"
+languageCode = "en-gb"
+title = "TalkAboutBrex"
+[params]
+  title = "TalkAboutBrex"
+  description = "A Remainer's guide to discussing Brexit this Christmas"
+  images = ["images/talk-about-brex.png"]
+  header_image = "/images/roberto-nickson-g-715417-unsplash@2x.jpg"
