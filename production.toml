@@ -1,4 +1,4 @@
-baseURL = "http://www.talkaboutbrex.co.uk/"
+baseURL = "https://www.talkaboutbrex.co.uk/"
 languageCode = "en-gb"
 title = "TalkAboutBrex"
 [params]
