@@ -104,7 +104,7 @@ header {
         letter-spacing: 1.4px;
         background: transparent url(images/logo.svg) no-repeat top right;
         padding: 2px 25px 0 0;
-        margin: 16px 0;
+        margin: 0;
         border: 0;
         width: auto;
       
@@ -116,7 +116,8 @@ header {
             color: white;
         }
     }
-  
+    
+    /** Home page header styles */
     &.home-header {
 
         .container {
@@ -232,6 +233,31 @@ input[type="submit"].button-block,
 .button.button-block {
     display: block;
     width: 100%;
+}
+
+input[type="submit"].button-info,
+.button.button-info {
+    box-shadow: none;
+    font-size: 1.4rem;
+    letter-spacing: -.3px;
+    min-width: auto;
+    padding: 4px 6px;
+    margin-bottom: 0;
+  
+    &:focus, &:active, &:hover {
+        margin-top: inherit;
+    }
+  
+    header & {
+        background-color: transparent;
+        border: 1px solid #fff;
+      
+        &:focus, &:active, &:hover {
+            color: $breadcrumb-colour;
+            background-color: #fff;
+        }
+    }
+    
 }
 
 /** To cope with shadow on buttons */

@@ -20,7 +20,7 @@
   -webkit-appearance: none;
   appearance        : none;
 
-  &:focus {
+  &:focus, &:active, &:hover {
     box-shadow: 0 0 1px 0 $button-shadow inset;
     margin-top: 7px;
     margin-bottom: 0;
