@@ -95,6 +95,11 @@ header {
     .container {
       display: flex;
       justify-content: space-between;
+      max-width: 100%;
+      
+      @media only screen and (min-width: 600px) {
+          padding: 36px 16px;
+      }
     }
 
     h1, h2 {
@@ -133,6 +138,10 @@ header {
 
         h1 {
             margin: 16px auto;
+          
+            @media only screen and (min-width: 600px) {
+                margin: 36px auto 24px;
+            }
         }
 
         .lead {
@@ -151,19 +160,24 @@ header {
     /** Help Breadcrumb container */
     .breadcrumb-wrap {
         background-color: $breadcrumb-colour;
-        padding-top: 6px;
-        padding-bottom: 6px;
 
         ul.arrow-nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
             width: 100%;
+            max-width: 768px;
             list-style-type: none;
             margin: 0 auto;
-            padding: 0 16px;
+            padding: 6px 16px;
             font-size: 1.6rem;
             letter-spacing: -.3px;
+          
+            @media screen and (min-width: 600px) {
+                padding: 16px 16px;
+                font-size: 2.4rem;
+                letter-spacing: -.5px;
+            }
 
             li {
                 flex-grow: 1;
