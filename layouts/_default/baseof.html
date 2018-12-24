@@ -17,6 +17,9 @@
 
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
+    {{ block "title" . }}
+      <title>{{ .Title }} | TalkAboutBrex</title>
+    {{ end }}
   </head>
 
   <body>
