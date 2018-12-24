@@ -20,6 +20,13 @@
     {{ block "title" . }}
       <title>{{ .Title }} | TalkAboutBrex</title>
     {{ end }}
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/icons/apple-touch-icon.png" | relURL }}">
+    <link rel="manifest" href="{{ "images/icons/site.webmanifest" | relURL }}">
+    <link rel="mask-icon" href="{{ "images/icons/safari-pinned-tab.svg" | relURL }}" color="#113259">
+    <link rel="shortcut icon" href="{{ "images/icons/favicon.ico" | relURL }}">
+    <meta name="msapplication-TileColor" content="#113259">
+    <meta name="msapplication-config" content="{{ "images/icons/browserconfig.xml" | relURL }}">
+    <meta name="theme-color" content="#113259">
   </head>
 
   <body>
