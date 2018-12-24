@@ -1,0 +1,19 @@
+{
+    "name": "TalkAboutBrex",
+    "short_name": "TalkAboutBrex",
+    "icons": [
+        {
+            "src": "/static/images/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/images/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#113259",
+    "background_color": "#113259",
+    "display": "standalone"
+}
