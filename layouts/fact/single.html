@@ -13,7 +13,14 @@
     <div class="section-header">
         <div class="container">
             {{ $totalFacts := len ( where .CurrentSection.Pages "Type" "fact" ) }}
-            <h4>One of {{ $totalFacts }} facts</h4>
+            {{ $currentPermalink := .Permalink }}
+            {{ .Scratch.Add "countFact" 1 }}
+            {{ range .CurrentSection.Pages }}
+              {{ if eq .Permalink $currentPermalink }}
+                <h4>{{ .Scratch.Get "countFact" }} of {{ $totalFacts }} facts</h4>
+              {{ end }}
+              {{ .Scratch.Add "countFact" 1 }}
+            {{ end }}
 
             {{ with .CurrentSection }}
                 <p><a href="{{ .Permalink }}">See all facts</a></p>
