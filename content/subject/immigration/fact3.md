@@ -1,6 +1,7 @@
 ---
 title: UK Nationals may have to leave the EU
 type: fact
+weight: 3
 ---
 
 If the UK leaves the EU, people from the UK will lose the automatic right to live, work and retire there. 1.2 million people from UK currently live in the EU. What will happen to them?

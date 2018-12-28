@@ -1,6 +1,7 @@
 ---
 title: We help decide what the EU will do
 type: fact
+weight: 2
 ---
 
 In less important areas, if the European Council want to do something they take a vote and need at least 50% of the countries to agree to it. 

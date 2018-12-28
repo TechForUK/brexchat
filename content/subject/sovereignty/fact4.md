@@ -1,6 +1,7 @@
 ---
 title: The single market is a good thing
 type: fact
+weight: 4
 ---
 
 The single market makes trade between EU companies easy by making all members keep to the same standards. 

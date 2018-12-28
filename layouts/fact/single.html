@@ -14,12 +14,13 @@
         <div class="container">
             {{ $totalFacts := len ( where .CurrentSection.Pages "Type" "fact" ) }}
             {{ $currentPermalink := .Permalink }}
-            {{ .Scratch.Add "countFact" 1 }}
-            {{ range .CurrentSection.Pages }}
+            {{ $scratch := newScratch }}
+            {{ $scratch.Add "countFact" 1 }}
+            {{ range .CurrentSection.Pages.ByWeight }}
               {{ if eq .Permalink $currentPermalink }}
-                <h4>{{ .Scratch.Get "countFact" }} of {{ $totalFacts }} facts</h4>
+                <h4>{{ $scratch.Get "countFact" }} of {{ $totalFacts }} facts</h4>
               {{ end }}
-              {{ .Scratch.Add "countFact" 1 }}
+              {{ $scratch.Add "countFact" 1 }}
             {{ end }}
 
             {{ with .CurrentSection }}

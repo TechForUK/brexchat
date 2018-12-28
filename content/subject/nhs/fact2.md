@@ -1,6 +1,7 @@
 ---
 title: "We need EU people to work in NHS"
 type: fact
+weight: 2
 ---
 
 62,000 people from the EU currently work in the NHS.
