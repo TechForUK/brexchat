@@ -1,8 +1,15 @@
 baseURL = "https://www.talkaboutbrex.co.uk/"
 languageCode = "en-gb"
 title = "TalkAboutBrex"
+googleAnalytics = "UA-131452165-1"
 [params]
   title = "TalkAboutBrex"
   description = "A Remainer's guide to discussing Brexit this Christmas"
   images = ["images/talk-about-brex.png"]
   header_image = "/images/roberto-nickson-g-715417-unsplash@2x.jpg"
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
