@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trade deals on TalkAboutBrex</title>
+    <link>https://techforuk.github.io/brexchat/subject/trade/</link>
+    <description>Recent content in Trade deals on TalkAboutBrex</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="https://techforuk.github.io/brexchat/subject/trade/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The single market is a good thing</title>
+      <link>https://techforuk.github.io/brexchat/subject/trade/fact1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techforuk.github.io/brexchat/subject/trade/fact1/</guid>
+      <description>The single market makes trade between EU companies easy by making all members keep to the same standards. This means that we know the toasters produced in the UK, Germany or France are all of at least the same quality and so we don’t need to check them when they come in or out. This keeps us all safe and makes it much easier to do business in Europe.</description>
+    </item>
+    
+    <item>
+      <title>We have a free trade deal with EU</title>
+      <link>https://techforuk.github.io/brexchat/subject/trade/fact2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techforuk.github.io/brexchat/subject/trade/fact2/</guid>
+      <description>As a member of the EU’s Single Market, we have free trade deals with all 27 EU countries. That is over 500 million customers. If we leave the Single Market, we will lose these agreements and will have to start negotiating with the EU again.</description>
+    </item>
+    
+    <item>
+      <title>We have free trade deals outside the EU</title>
+      <link>https://techforuk.github.io/brexchat/subject/trade/fact3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techforuk.github.io/brexchat/subject/trade/fact3/</guid>
+      <description>As part of the EU, we have free trade deals with over 50 countries outside of the EU from South Africa to South Korea.
+If we leave the EU, we will lose these agreements and will have to start negotiating ourselves, which can take a long time - the EU’s deal with Canada took 7 years to agree.</description>
+    </item>
+    
+  </channel>
+</rss>

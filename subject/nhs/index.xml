@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The NHS on TalkAboutBrex</title>
+    <link>https://techforuk.github.io/brexchat/subject/nhs/</link>
+    <description>Recent content in The NHS on TalkAboutBrex</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="https://techforuk.github.io/brexchat/subject/nhs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EU migrants use the NHS less</title>
+      <link>https://techforuk.github.io/brexchat/subject/nhs/fact3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techforuk.github.io/brexchat/subject/nhs/fact3/</guid>
+      <description>Most EU migrants are young and healthy and so are less likely to use NHS.</description>
+    </item>
+    
+    <item>
+      <title>There will be less money for NHS</title>
+      <link>https://techforuk.github.io/brexchat/subject/nhs/fact1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techforuk.github.io/brexchat/subject/nhs/fact1/</guid>
+      <description>Nearly all economists say we will be poorer after Brexit and so we are not going to get the extra £350 million a week for the NHS that we were promised.
+Even Nigel Farage said he could not guarantee we would get that money.</description>
+    </item>
+    
+    <item>
+      <title>We need EU people to work in NHS</title>
+      <link>https://techforuk.github.io/brexchat/subject/nhs/fact2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techforuk.github.io/brexchat/subject/nhs/fact2/</guid>
+      <description>62,000 people from the EU currently work in the NHS.
+But the NHS is still short of 35,000 nurses and nearly 10,000 doctors.
+What would we do without the doctors and nurses from the EU?</description>
+    </item>
+    
+    <item>
+      <title>We rely on EU for medicine</title>
+      <link>https://techforuk.github.io/brexchat/subject/nhs/fact4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techforuk.github.io/brexchat/subject/nhs/fact4/</guid>
+      <description>The UK imports 37 million packs of medicine each month from the EU. Some medicine don&amp;rsquo;t keep for long so we need them to get here quickly and regularly.</description>
+    </item>
+    
+  </channel>
+</rss>

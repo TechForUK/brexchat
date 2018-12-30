@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="283" height="274" viewBox="0 0 283 274">
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+        <circle cx="143" cy="145" r="111" stroke="#4A4A4A" stroke-width="5"/>
+        <path stroke="#4A4A4A" stroke-width="5" d="M21.215 166.137l12.088-14.405 14.405 12.088"/>
+        <g transform="translate(0 77)">
+            <circle cx="36.5" cy="36.5" r="36.5" fill="#FFF" stroke="#4A4A4A"/>
+            <text fill="#4A4A4A" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="18" font-weight="500" letter-spacing="-.375">
+                <tspan x="14.973" y="29.5">Share</tspan>
+            </text>
+        </g>
+        <g transform="translate(42 194)">
+            <circle cx="36.5" cy="36.5" r="36.5" fill="#FFF" stroke="#4A4A4A"/>
+            <text fill="#4A4A4A" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="18" font-weight="500" letter-spacing="-.375">
+                <tspan x="15.342" y="29.5">Agree</tspan>
+            </text>
+        </g>
+        <g transform="translate(109)">
+            <circle cx="36.5" cy="36.5" r="36.5" fill="#FFF" stroke="#4A4A4A"/>
+            <text fill="#4A4A4A" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="18" font-weight="500" letter-spacing="-.375">
+                <tspan x="23.463" y="29.5">Ask</tspan>
+            </text>
+        </g>
+        <g transform="translate(208 83)">
+            <circle cx="36.5" cy="36.5" r="36.5" fill="#FFF" stroke="#4A4A4A"/>
+            <text fill="#4A4A4A" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="18" font-weight="500" letter-spacing="-.375">
+                <tspan x="14.108" y="29.5">Listen</tspan>
+            </text>
+        </g>
+        <g transform="translate(179 199)">
+            <circle cx="36.5" cy="36.5" r="36.5" fill="#FFF" stroke="#4A4A4A"/>
+            <text fill="#4A4A4A" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="18" font-weight="500" letter-spacing="-.375">
+                <tspan x="10.723" y="29.5">Reflect</tspan>
+            </text>
+        </g>
+        <path stroke="#4A4A4A" stroke-width="5" d="M237.003 63.56l-3.265 18.52-18.52-3.266M255.126 197.931l-18.246 4.55-4.55-18.246"/>
+        <path stroke="#4A4A4A" stroke-width="5" d="M255.126 198.931l-18.246 4.55-4.55-18.246M115.39 269.15l-6.122-17.78 17.78-6.123M90.766 30.823l16.285 9.402L97.65 56.51"/>
+    </g>
+</svg>
