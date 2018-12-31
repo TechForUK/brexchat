@@ -1,0 +1,24 @@
+{{ define "title" }}
+    <title>Page not found</title>
+{{ end }}
+
+{{ define "main" }}
+<section class="page-content page-content-404 container">
+  
+    <h2>Page not found!</h2>
+    <p>I'm sorry, the page your looking for was not found.</p>
+
+    {{ with .Site.GetPage "/_index.md" }}
+        <form action="{{ .Permalink }}">
+            <input type="submit" value="Go to the home page" class="button button-block" />
+        </form>
+    {{ end }}
+  
+    {{ with .Site.GetPage "/start/index.md" }}
+        <form action="{{ .Permalink }}">
+            <input type="submit" value="Show me the facts" class="button-inverse button-block" />
+        </form>
+    {{ end }}
+  
+</section>
+{{ end }}
