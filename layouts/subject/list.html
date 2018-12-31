@@ -6,9 +6,9 @@
     </div>
 
     <nav class="container button-list">
-        {{ range .Sections }}
+        {{ range .Sections.ByTitle }}
             {{ $sectionName := .Title }}
-            {{ range first 1 .Pages }}
+            {{ range first 1 .Pages.ByTitle }}
                 <form action="{{ .Permalink }}">
                     <input type="submit" value="{{ $sectionName }}" class="button-block" />
                 </form>

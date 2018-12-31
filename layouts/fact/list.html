@@ -8,7 +8,7 @@
     </div>
 
     <nav class="container button-list">
-        {{ range .Pages }}
+        {{ range .Pages.ByTitle }}
             <form action="{{ .Permalink }}">
                 <input type="submit" value="{{ .Title }}" class="button-block button-inverse" />
             </form>
