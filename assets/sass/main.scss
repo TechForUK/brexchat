@@ -85,8 +85,8 @@ a {
 {{ $header_image := .Site.Params.header_image }}
 {{ $header_image := (trim $header_image "/") | absURL }}
 header {
-    background-color: #4a689b;
-    background-image: url('{{ $header_image }}');
+    background-color: $header-background-colour;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('{{ $header_image }}');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
