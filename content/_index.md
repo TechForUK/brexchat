@@ -5,6 +5,6 @@ images:
   - "images/talk-about-brex.png"
 ---
 
-## Just want the facts?
+## Play nicely!
 
-If you are comfortable with this process and just want the facts.
+Remember... your point of view will be better received if you find some common ground on a subject first.

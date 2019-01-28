@@ -10,12 +10,6 @@
         <p class="lead">
             {{ .Site.Params.description }}
         </p>
-
-        {{ with .Site.GetPage "/help/_index.md" }}
-            <form action="{{ .Permalink }}">
-                <input type="submit" value="Get Started" />
-            </form>
-        {{ end }}
     </div>
 </header>
 {{ end }}
@@ -24,11 +18,25 @@
 <section class="primary-content primary-content-home container">
     {{ .Content }}
 
-    {{ with .Site.GetPage "/start/index.md" }}
-        <form action="{{ .Permalink }}">
-            <input type="submit" value="Show me the facts" class="button-inverse" />
-        </form>
-    {{ end }}
+    <nav class="container button-list">
+        {{ with .Site.GetPage "/help/_index.md" }}
+            <p><a href="{{ .Permalink }}">I need some tips</a></p>
+        {{ end }}
+
+        {{ with .Site.GetPage "/subject/_index.md" }}
+            {{ range .Sections.ByTitle }}
+                {{ $sectionName := .Title }}
+                {{ range first 1 .Pages.ByTitle }}
+                    <form action="{{ .Permalink }}">
+                        <input type="submit" value="{{ $sectionName }}" class="button-block" />
+                    </form>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </nav>
+    
+
+    
 </section>
 {{ end }}
 
