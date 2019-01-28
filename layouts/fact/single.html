@@ -36,7 +36,7 @@
 
     <nav class="container button-content">
         {{ if not ( .PrevInSection ) }}
-            {{ with .Site.GetPage "/finish/index.md" }}
+            {{ with .Site.GetPage "/subject/_index.md" }}
                 <form action="{{ .Permalink }}">
                     <input type="submit" value="Next" class="button-block" />
                 </form>
