@@ -1,6 +1,4 @@
 ---
-title: "Choose subject"
+title: "Change subject"
 type: subject
 ---
-
-Find out the facts:

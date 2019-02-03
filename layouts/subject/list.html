@@ -1,18 +1,13 @@
 {{ define "main" }}
     <div class="page-content container">
-        <h2>{{ .Title }}</h2>
-
-        {{ .Content }}
+        <b>{{ .Title }}:</b>
     </div>
 
     <nav class="container button-list">
         {{ range .Sections.ByTitle }}
-            {{ $sectionName := .Title }}
-            {{ range first 1 .Pages.ByTitle }}
-                <form action="{{ .Permalink }}">
-                    <input type="submit" value="{{ $sectionName }}" class="button-block" />
-                </form>
-            {{ end }}
+            <form action="{{ .Permalink }}">
+                <input type="submit" value="{{ .Title }}" class="button-block" />
+            </form>
         {{ end }}
     </nav>
 {{ end }}

@@ -25,12 +25,9 @@
 
         {{ with .Site.GetPage "/subject/_index.md" }}
             {{ range .Sections.ByTitle }}
-                {{ $sectionName := .Title }}
-                {{ range first 1 .Pages.ByTitle }}
-                    <form action="{{ .Permalink }}">
-                        <input type="submit" value="{{ $sectionName }}" class="button-block" />
-                    </form>
-                {{ end }}
+                <form action="{{ .Permalink }}">
+                    <input type="submit" value="{{ .Title }}" class="button-block" />
+                </form>
             {{ end }}
         {{ end }}
     </nav>

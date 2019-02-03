@@ -1,16 +1,24 @@
 {{ define "main" }}
+    <div class="section-header">
+        <div class="container">
+            <h2>{{ .Title }}</h2>
+
+            {{ with .Site.GetPage "/subject/_index.md" }}
+                <p><a href="{{ .Permalink }}">Change subject</a></p>
+            {{ end }}
+        </div>
+    </div>
+
     <div class="page-content container">
-        <p>The facts:</p>
-
-        <h2>{{ .Title }}</h2>
-
         {{ .Content }}
+
+        <p>Choose a fact:</p>
     </div>
 
     <nav class="container button-list">
         {{ range .Pages.ByTitle }}
             <form action="{{ .Permalink }}">
-                <input type="submit" value="{{ .Title }}" class="button-block button-inverse" />
+                <input type="submit" value="{{ .Title }}" class="button-block" />
             </form>
         {{ end }}
     </nav>
