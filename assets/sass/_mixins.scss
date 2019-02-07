@@ -19,6 +19,7 @@
   cursor: pointer;
   -webkit-appearance: none;
   appearance        : none;
+  white-space: normal;
   
   &:focus {
     outline-offset: -5px;
