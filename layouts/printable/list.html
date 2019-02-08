@@ -1,0 +1,21 @@
+{{ define "header" }}
+    <h1 class="site-title"><span class="logo">{{ partial "talkaboutbrex.html" . }}</span> - {{.Site.BaseURL}}</h1>
+
+    {{ .Site.Params.description }}
+{{ end }}
+
+{{ define "main" }}
+    {{ .Content }}
+
+    {{ with .Site.GetPage "/subject/_index.md" }}
+        {{ range .Sections.ByTitle }}
+            <h2>{{ .Title }}</h2>
+
+            {{ range .Pages.ByTitle }}
+                <h3>{{ .Title }}</h3>
+
+                {{ .Content }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
