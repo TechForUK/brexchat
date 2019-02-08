@@ -1,0 +1,57 @@
+@import "variables";
+
+@media print {
+  @page {
+    margin: 2cm;
+  }
+
+  body {
+    width: 100%; 
+    margin: 0; 
+    float: none;
+
+    font-family: $font-stack;
+    line-height: 1.3;
+    background: white !important;
+    color: black;
+  }
+
+  h1 {
+    font-size: 24pt;
+  }
+
+  h2 {
+    font-size: 18pt;
+    margin-top: 25px;
+  }
+    
+  h3, h4 {
+    font-size: 14pt;
+    margin-top: 25px;
+  }
+
+  a, blockquote, p, table, pre {
+    break-inside: avoid-page;
+  }
+
+  h1, h2, h3, h4, h5, h6, img {
+    break-inside: avoid-page; 
+    break-after: avoid-page;
+  }
+
+  ul, ol, dl {
+    break-inside: avoid-page;
+    break-before: avoid-page;
+  }
+
+  a:link, a:visited, a {
+    background: transparent;
+    color: black;
+    text-decoration: underline;
+    text-align: left;
+  }
+    
+  a[href^=http]:after {
+    content:" [ " attr(href) " ] ";
+  }
+}
