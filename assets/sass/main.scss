@@ -397,3 +397,14 @@ form + form {
         margin: 0 0 1.5em;
     }
 }
+
+.discussion-guide {
+    background-color: $discussion-guide-colour;
+    font-style: italic;
+    padding: 16px;
+
+    a {
+        font-style: normal;
+        font-weight: 600;
+    }
+}

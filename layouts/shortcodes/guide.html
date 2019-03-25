@@ -1,0 +1,9 @@
+<div class="discussion-guide">
+    {{.Inner}}
+
+    {{ with .Site.GetPage "/help/_index.md" }}
+        <p>
+            <a href="{{ .Permalink }}">How to discuss Brexit</a>
+        </p>
+    {{ end }}
+</div>
