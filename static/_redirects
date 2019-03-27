@@ -1,2 +1,10 @@
-# Experimental redirect
-/subject/economy/factN      /subject/economy/fact3
+/subject/nhs/fact1          /subject/nhs/money-for-nhs
+/subject/nhs/fact2          /subject/nhs/nhs-staff
+/subject/nhs/fact3          /subject/nhs/nhs-patients
+/subject/nhs/fact4          /subject/nhs/medicine-imports
+/subject/economy/fact2      /subject/economy/brexit-cost
+/subject/economy/fact2      /subject/economy/economic-forecast
+/subject/sovereignty/fact1  /subject/sovereignty/control
+/subject/sovereignty/fact2  /subject/sovereignty/eu-decisions
+/subject/sovereignty/fact3  /subject/sovereignty/voting-record
+/subject/sovereignty/fact4  /subject/sovereignty/single-market

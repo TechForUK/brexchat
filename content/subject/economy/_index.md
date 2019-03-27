@@ -1,4 +1,4 @@
 ---
-title: "The Economy"
+title: "UK Economy"
 type: fact
 ---
