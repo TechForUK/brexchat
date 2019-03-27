@@ -1,0 +1,8 @@
+{{ with .Inner }}
+    <!-- Source details tbc -->
+{{ end }}
+{{ with .Get 0 }}
+<div class="source">
+    <a href="{{ . }}" target="_blank">Source</a>
+</div>
+{{ end }}
