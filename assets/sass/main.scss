@@ -402,7 +402,13 @@ form + form {
     background-color: $discussion-guide-colour;
     font-style: italic;
     padding: 16px;
+}
 
+.source {
+    margin: 0 0 1.5em;
+}
+
+.source, .discussion-guide {
     a {
         font-style: normal;
         font-weight: 600;
