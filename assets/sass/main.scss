@@ -414,3 +414,34 @@ form + form {
         font-weight: 600;
     }
 }
+
+.discussion-guide {
+    padding-left: 2.5em;
+
+    h4, p, a {
+        font-size: 1.7rem;
+    }
+
+    h4, p {
+        margin: 0 0 1em;
+    }
+
+    h4 {
+        margin: 0 0 1em;
+        position: relative;
+        font-style: normal;
+    }
+
+    h4:before {
+        content: '';
+        background-image: url("images/speech-bubble.png");
+        background-repeat: no-repeat;
+
+        position: absolute;
+        top: 7px;
+        left: -1.5em;
+        width: 25px;
+        height: 25px;
+        display: block;
+    }
+}
