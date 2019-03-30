@@ -39,12 +39,10 @@
           {{ with .Site.GetPage "/_index.md" }}
             <h1><a href="{{ .Permalink }}">{{ partial "talkaboutbrex.html" . }}</a></h1>
           {{ end }}
-          
-          {{ with .Site.GetPage "/help/_index.md" }}
-            <form action="{{ .Permalink }}">
-              <input type="submit" value="Help" class="button button-info" />
-            </form>
-          {{ end }}
+
+          <form action="https://techforuk.com/">
+            <input type="submit" value="Get involved" class="button button-info" />
+          </form>
         </div>
     </header>
     {{ end }}
