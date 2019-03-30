@@ -27,9 +27,20 @@
             {{ end }}
         {{ end }}
     </nav>
-    
+</section>
 
-    
+<section class="help-content">
+    <div class="container">
+        <h2>Having difficulty changing minds?</h2>
+
+        <p>We have some tips that encourage positive conversations</p>
+
+        {{ with .Site.GetPage "/help/_index.md" }}
+            <p>
+                <a href="{{ .Permalink }}">How to discuss Brexit</a>
+            </p>
+        {{ end }}
+    </div>
 </section>
 {{ end }}
 
