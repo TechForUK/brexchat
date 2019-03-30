@@ -1,10 +1,19 @@
-{{ $common := .Site.GetPage "/common/index.md" }}
-{{ $social := $common.Resources.GetMatch "social.md" }}
-
-{{ with $social }}
 <section class="social">
   <div class="container">
-    {{ .Content }}
+    <h2>Tell your friends</h2>
+
+    <p>Please share the love!</p>
+
+    <figure>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.talkaboutbrex.co.uk%2F">
+        <img src="{{ "images/social/facebook.svg" | relURL }}" alt="Facebook" />
+      </a>
+    </figure>
+    <figure>
+      <a href="https://twitter.com/intent/tweet/?text=I’m%20trying%20to%20change%20Leavers%20into%20Remainers%20%23LetsTalkAboutBrexBaby&url=https%3A%2F%2Fwww.talkaboutbrex.co.uk%2F">
+        <img src="{{ "/images/social/twitter.svg" | relURL }}" alt="Twitter" link= />
+      </a>
+    </figure>
   </div>
 </section>
-{{ end }}
+
