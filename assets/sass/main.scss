@@ -217,8 +217,17 @@ main {
     color: white;
     background-color: #323232;
 
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover, &:focus {
+            text-decoration: underline;
+        }
+    }
+
     img {
-        width: 80%;
+        width: 60%;
     }
 }
 

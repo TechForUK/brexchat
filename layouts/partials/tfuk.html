@@ -1,10 +1,17 @@
-{{ $common := .Site.GetPage "/common/index.md" }}
-{{ $tfuk := $common.Resources.GetMatch "tfuk.md" }}
-
-{{ with $tfuk }}
 <section class="tfuk">
   <div class="container">
-    {{ .Content }}
+    <h2>Made by unpaid volunteers</h2>
+
+    <a href="https://techforuk.com/">
+      <div>
+        <p>
+          Check out our other projects!
+        </p>
+
+        <p>
+          <img src="{{ "images/tech-for-uk.png" | relURL }}" alt="Tech for UK" />
+        </p>
+      </div>
+    </a>
   </div>
 </section>
-{{ end }}
