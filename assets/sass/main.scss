@@ -240,7 +240,34 @@ main {
     }
 }
 
-.primary-content, .help-content, .tfuk, .social, .subscribe {
+.share {
+    color: $share-colour;
+
+    a {
+        text-decoration: none;
+    
+        &:hover, &:focus {
+            text-decoration: none;
+        }
+    }
+
+    h4 {
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin: 0 0 8px;
+    }
+
+    svg {
+        display: inline-block;
+        margin: 0 1em 0 1em;
+
+        path {
+            fill: $share-colour;
+        }
+    }
+}
+
+.primary-content, .help-content, .tfuk, .social, .subscribe, .share {
     text-align: center;
 }
 
