@@ -1,5 +1,7 @@
 ---
 title: We need EU people to work in NHS
+images:
+- images/facts/nhs-staff.png
 type: fact
 ---
 
