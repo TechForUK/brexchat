@@ -1,7 +1,8 @@
 ---
 title: We need EU people to work in NHS
+description: 63,000 people from the EU currently work in the NHS. How will Brexit affect you?
 images:
-- images/facts/nhs-staff.png
+- images/facts/nhs-staff-a.png
 type: fact
 ---
 

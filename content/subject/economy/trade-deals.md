@@ -1,5 +1,8 @@
 ---
 title: The EU has free trade deals with over 70 countries
+description: As EU members, the UK has over 40 free trade deals with over 70 countries outside of the EU. How will Brexit affect you?
+images:
+- images/facts/trade-deals-a.png
 type: fact
 ---
 

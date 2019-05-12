@@ -1,5 +1,8 @@
 ---
 title: Brexit will make us much poorer in the long term
+description: The Government estimates that we will be at least £100 billion a year poorer by the 2030s if we go ahead with Brexit. How will Brexit affect you?
+images:
+- images/facts/economic-forecast-a.png
 type: fact
 ---
 

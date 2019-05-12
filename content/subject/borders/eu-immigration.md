@@ -1,5 +1,8 @@
 ---
 title: We can control immigration from EU
+description: EU law states that you must have a job to be allowed to come and live in the UK. How will Brexit affect you?
+images:
+- images/facts/eu-immigration-a.png
 type: fact
 ---
 

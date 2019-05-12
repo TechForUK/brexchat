@@ -1,5 +1,8 @@
 ---
 title: Brexit will mean less money for NHS
+description: Brexit will mean less money for the NHS. How will Brexit affect you?
+images:
+- images/facts/money-for-nhs-a.png
 type: fact
 ---
 
