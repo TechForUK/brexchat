@@ -1,5 +1,8 @@
 ---
 title: The Irish border
+description: Brexit and the Irish border. How will Brexit affect you?
+images:
+- images/facts/irish-border-a.png
 type: fact
 ---
 

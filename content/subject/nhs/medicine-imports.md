@@ -1,5 +1,8 @@
 ---
 title: We rely on EU for medicine
+description: The UK imports 45 million packs of medicine from the EU every month. How will Brexit affect you?
+images:
+- images/facts/medicine-imports-a.png
 type: fact
 ---
 

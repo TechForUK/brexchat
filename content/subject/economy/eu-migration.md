@@ -1,5 +1,8 @@
 ---
 title: EU immigrants give more than they take
+description: EU immigrants contribute about £2,300 more to the UK than the average UK citizen. How will Brexit affect you?
+images:
+- images/facts/eu-migration-a.png
 type: fact
 ---
 

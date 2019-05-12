@@ -1,5 +1,8 @@
 ---
 title: Brexit has already cost billions
+description: The Bank of England estimates that Brexit has cost the UK £40 billion. How will Brexit affect you?
+images:
+- images/facts/brexit-cost-a.png
 type: fact
 ---
 
