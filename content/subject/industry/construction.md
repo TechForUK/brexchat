@@ -1,5 +1,8 @@
 ---
 title: UK Construction
+description: UK construction is short of builders even with the 165,000 workers from the EU currently here. How will Brexit affect you?
+images:
+- images/facts/construction-b.png
 type: fact
 ---
 

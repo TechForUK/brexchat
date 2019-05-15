@@ -1,5 +1,8 @@
 ---
 title: UK Farming
+description: 75% of UK farm produce is picked by Romanians and Bulgarians. How will Brexit affect you?
+images:
+- images/facts/farming-b.png
 type: fact
 ---
 

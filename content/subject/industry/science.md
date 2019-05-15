@@ -1,5 +1,8 @@
 ---
 title: UK Science & Research
+description: 83% of the UK's scientists want to Remain in the EU. How will Brexit affect you?
+images:
+- images/facts/science-b.png
 type: fact
 ---
 
