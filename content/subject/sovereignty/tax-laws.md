@@ -1,5 +1,8 @@
 ---
 title: The EU does not set UK taxes
+description: EU members agree most VAT rates together. They can not be changed without the UK's agreement. How will Brexit affect you?
+images:
+- images/facts/tax-laws-c.png
 type: fact
 ---
 

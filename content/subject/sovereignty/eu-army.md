@@ -1,5 +1,8 @@
 ---
 title: The UK does not have to join an EU army
+description: The Lisbon Treaty states that the UK will never have to join an EU army, unless we want to. How will Brexit affect you?
+images:
+- images/facts/eu-army-c.png
 type: fact
 ---
 

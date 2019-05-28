@@ -1,5 +1,8 @@
 ---
 title: The UK can stop countries from joining the EU
+description: As members of the EU, the UK can choose whether to allow any other country to join. How will Brexit affect you?
+images:
+- images/facts/new-countries-c.png
 type: fact
 ---
 
