@@ -1,5 +1,8 @@
 ---
 title: The UK helps to decide what the EU does
+description: As members, the UK helps decide what the EU does. How will Brexit affect you?
+images:
+- images/facts/eu-decisions-c.png
 type: fact
 ---
 

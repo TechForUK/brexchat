@@ -1,9 +1,12 @@
 ---
-title: The single market has little impact on UK sovereignty
+title: The Single Market has little impact on UK sovereignty
+description: The Single Market just makes trade within the EU easy by having one set of standards. How will Brexit affect you?
+images:
+- images/facts/single-market-c.png
 type: fact
 ---
 
-The single market simply makes trade between businesses inside the EU easy by having just one set of standards for everyone to use.
+The Single Market simply makes trade between businesses inside the EU easy by having just one set of standards for everyone to use.
 
 For example, we know the toasters produced in the UK, Germany or France meet the same safety checks so we don't need to inspect them when they are imported or exported. This keeps us all safe and makes it much easier and cheaper to do business in Europe.
 
